@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<title>GUARDVIDA</title>
+	<meta charset="utf-8">
+	<meta name="author" content="André Carvalho">
+	<meta name="keywords" content="Saúde,profissional,domicílio,Distrito Federal,médico,geriatra,família,fisioterapeuta,terapiaocupacional,cuidador,idosos,enfermeiro">
+	<meta name="description" content="Empresa especializada em mão de obra na área de saúde para idosos principalmente para atendimento domiciliar">
+</head>
+<body bgcolor="#FFFFFF"link="#009688" alink="009688" vlink="009688">
+	<p align="right" id="topo">
+		<font face="calibri" color="#303F9F" size="4">
+			<a href="#pag-sobre">SOBRE</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#pag-servicos">SERVIÇOS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="#pag-contato">CONTATO</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		</font>
+	</p>
+	<hr/>
+	<img src="img/banner2.png" width="100%" alt="">
+
+	<hr id="pag-sobre">	
+	<font face="calibri" color="#303F9F" size="6">
+		<h1>GuardVida</h1>
+	</font>	
+
+	<font face="arial" color="#303F9F" size="5">
+		<p align="justify">A Guardvida é uma empresa especializada na prestação de serviços de saúde para idosos. Atendemos em todo o Distrito Federal e possuimos 15 nos de experiência nesse ramo. Nossos profissionais são todos especializados para lidar com o nosso publico alvo. Dispomos de médicos, fisioterapeutas, enfermeiros, técnicos de enfermagem, nutricionistas e terapeutas ocupacionais.</p>
+
+		<p align="justify">Não delegue os cuidados de seu ente querido a uma empresa qualquer, escolha a melhor do mercado! Podemos disponibilizar referências se necessário, faça um orçamento conosco, o custo de contratar profissionais avulsos pode ser muito maior ao final do serviço devido a <b>demandas judiciais futuras</b>, não se arrisque.</p>
+
+		<p align="justify">Nossa sede fica localizada em: SQSW 101 Bloco C Galeria Golden Tower 1° e 2° piso. Venha fazer uma visita, aqui é possivel conhecer toda a nossa metodologia de trabalho. Poderemos esclarecer dúvidas, indicar os profissionais e carga horária adequada as suas necessidades. Basta marcar sua visita no formulário abaixo, nós teremos prazer em atende-lo(a).
+		</p>
+	</font>
+
+	<hr id="pag-servicos">
+	<font face="calibri" color="#303F9F" size="6">
+		<h2>Serviços</h2>
+	</font>	
+	<font face="arial" color="#303F9F" size="5">
+		<p>Aqui são mostrados preços por hora dos serviços de alguns profissionais disponibilizados pela empresa. São dados apenas informativos, de acordo com as suas necessidades podem ser organizados planos com preços diferenciados. Marque um horário no formulário abixo e nos faça uma visita.</p>
+	</font>
+
+	<table border="1">
+		<tr>
+			<td colspan="2"><img src="img/cuidador.jpg" width="455"></td>
+			<td colspan="2"><img src="img/enfermeira2.jpg" width="455"></td>
+			<td colspan="2"><img src="img/nutri3.jpg" width="455"></td>
+			<td colspan="2"><img src="img/terapeuta3.jpg" width="455"></td>
+		</tr>
+		<tr>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">Cuidador</h3></font></td>	
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">15,00 R$/Hora</td>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">Enfermeira</td>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">50,00 R$/Hora</td>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">Nutricionista</td>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">150,00 R$/consulta</td>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">terapeuta ocupacional</td>
+			<td><font face="arial" color="#303F9F" size="4"><h3 align="center">40,00 R$/Hora</td>
+		</tr>
+	</table>
+
+	<hr id="pag-contato">
+	<font face="calibri" color="#303F9F" size="6">
+		<h2>Contato</h2>
+	</font>
+	<font face="arial" color="#303F9F" size="5">
+		<p>Deixe seus dados que entraremos em contato.</p>
+	</font>
+
+	<form name="frm-agendar" method="GET" action="">
+
+		<label for="nome">Nome:</label><br/>
+		<input id="nome" type="text" name="nome completo" required placeholder="Nome Completo" size="70" required/><br/><br/>
+
+		<label for="email">E-mail:</label><br/>
+		<input type="email" name="email" id="email" required placeholder="nome@email.com" size="70"/><br/><br/>
+
+		<label for="quant">Quantidade:</label>
+		<input id="quant" type="number" name="quantidade" min="1" max="5" step="1"/><br/><br/>
+
+		<label for="servico">Serviço:</label><br/>
+		<select id="servico" name="nivel">
+						
+						<option value="">Selecione</option> 
+						<option value="">Emfermeiro</option>
+						<option value="">Cuidador</option>
+						<option value="">Terapeuta Ocupacional</option>
+						<option value="">Nutricionista</option>
+					</select><br/><br/>
+		<fieldset>
+			<legend>Forma:</legend>
+				<input id="pres" type="radio" name="genero" value="presencial"> <label for="pres">Presencial</label><br/>
+				<input id="on" type="radio" name="genero" value="online"> <label for="on">On-line</label>
+		</fieldset><br/>
+
+		<label for="com">Comentarios:</label><br/>
+		<textarea id="com" cols="83" rows="6"></textarea>
+
+		<p><input type="submit" name="btn-salvar" value="SALVAR"/>
+		<input type="reset" name="btn-cancelar" value="CANCELAR"/></p> 
+
+		<p align="right">
+			<a href="#topo">TOPO</a>
+		</p>
+
+	</form>
+		<hr/>
+		<font face="arial" color="#303F9F" size="3">
+	    <p align="center"> Desenvolvido por <a href="http://instagram.com" target="_blank"> André Carvalho </a>  - 2023</p>
+	    </font>
+	</body>
+</html>
+
+
+<!--Observações da prova: 1.retirar o autofocus do campo nome do formulário (já modificado);
+                          2. O link para retornar ao topo da página no canto inferior esquerdo da página (já modificado) -->
